@@ -2,19 +2,175 @@
 <html lang="en-GB">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="New Era Wrestling is a professional wrestling events promoter based in Newcastle upon Tyne, UK.">
+        <meta name="description" content="New Era Wrestling. Coming soon to North East England.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>New Era Wrestling</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+        <style>
+            :root {
+                --bs-body-color: var(--bs-black);
+                --bs-body-color-rgb: var(--bs-black-rgb);
+                --bs-primary: #fc0;
+                --bs-primary-rgb: 252,204,0;
+                --bs-border-radius: 0;
+            }
+            [data-bs-theme="dark"] {
+                --bs-body-bg: var(--bs-black);
+                --bs-body-bg-rgb: var(--bs-black-rgb);
+                --bs-body-color: var(--bs-white);
+                --bs-body-color-rgb: var(--bs-white-rgb);
+                --bs-link-color: var(--bs-white);
+                --bs-link-color-rgb: var(--bs-white-rgb);
+                --bs-link-hover-color: var(--bs-primary);
+                --bs-link-hover-color-rgb: var(--bs-primary-rgb);
+            }
+            .list-social-media-links a {
+                color: var(--bs-black);
+                background-color: var(--bs-white);
+                line-height: 1;
+                position: relative;
+                display: block;
+                width: 1rem;
+                height: 1rem;
+                padding: 1rem;
+                border-radius: 50%;
+                overflow: hidden;
+            }
+            .list-social-media-links a:hover {
+                background-color: var(--bs-primary);
+            }
+            .list-social-media-links .bi {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            abbr[title] {
+                text-decoration: none;
+            }
+            .container {
+                --bs-gutter-x: 2rem;
+                max-width: 720px;
+            }
+            .footer-logo {
+                background-image: url('./images/logo-white@2x.png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 81px 40px;
+                display: block;
+                width: 81px;
+                height: 40px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+        </style>
+        <script defer src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js" type="text/javascript"></script>
     </head>
-    <body>
-        <h1>New Era Wrestling</h1>
-        <p>A professional wrestling events promoter based in Newcastle upon Tyne, <abbr title="United Kingdom">UK</abbr>.</p>
+    <body class="d-flex flex-column min-vh-100">
+        <nav class="flex-shrink-0 navbar navbar-expand py-3 text-bg-primary">
+            <div class="container">
+                <span class="navbar-brand py-0">
+                    <img src="./images/logo@2x.png" alt="New Era Wrestling" class="d-block" width="81" height="40">
+                </span>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="ms-auto navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://x.com/newerawrestling" rel="external" target="_blank" title="New Era Wrestling on X (formerly Twitter)">
+                                <span class="bi bi-twitter-x"></span>
+                                <span class="visually-hidden">New Era Wrestling on X (formerly Twitter)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.facebook.com/newerawrestlinguk" rel="external" target="_blank" title="New Era Wrestling on Facebook">
+                                <span class="bi bi-facebook"></span>
+                                <span class="visually-hidden">New Era Wrestling on Facebook</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/newerawrestling" rel="external" target="_blank" title="New Era Wrestling on Instagram">
+                                <span class="bi bi-instagram"></span>
+                                <span class="visually-hidden">New Era Wrestling on Instagram</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.youtube.com/@newerawrestlinguk" rel="external" target="_blank" title="New Era Wrestling on YouTube">
+                                <span class="bi bi-youtube"></span>
+                                <span class="visually-hidden">New Era Wrestling on YouTube</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main class="flex-grow-1 py-3" role="main">
+            <div class="container">
+                <p><strong>New Era Wrestling.</strong> Coming soon to North East England.</p>
+                <!--
+                    TODO: Newsletter sign-up form
+                -->
+            </div>
+        </main>
+        <footer class="bg-body flex-shrink-0 py-5 text-body" data-bs-theme="dark" role="contentinfo">
+            <div class="container text-center">
+                <div class="mb-4">
+                    <div class="footer-logo"></div>
+                </div>
+                <div class="gap-3 vstack">
+                    <ul class="lh-1 list-inline list-social-media-links mb-0">
+                        <li class="list-inline-item">
+                            <a href="https://x.com/newerawrestling" rel="external" target="_blank" title="New Era Wrestling on X (formerly Twitter)">
+                                <span class="bi bi-twitter-x"></span>
+                                <span class="visually-hidden">New Era Wrestling on X (formerly Twitter)</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/newerawrestlinguk" rel="external" target="_blank" title="New Era Wrestling on Facebook">
+                                <span class="bi bi-facebook"></span>
+                                <span class="visually-hidden">New Era Wrestling on Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/newerawrestling" rel="external" target="_blank" title="New Era Wrestling on Instagram">
+                                <span class="bi bi-instagram"></span>
+                                <span class="visually-hidden">New Era Wrestling on Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com/@newerawrestlinguk" rel="external" target="_blank" title="New Era Wrestling on YouTube">
+                                <span class="bi bi-youtube"></span>
+                                <span class="visually-hidden">New Era Wrestling on YouTube</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div>
+                        <p class="mb-2">&copy; 2007&ndash;2025 New Era Wrestling. All rights reserved.</p>
+                        <p class="mb-0 small text-body-secondary">
+                            &ldquo;New Era Wrestling&rdquo; is a trading name of Your Fight Site <abbr title="Limited">Ltd</abbr>.<br>
+                            Company <span class="visually-hidden">number</span><span aria-hidden="true">&numero;</span> 10928224.
+                            Registered in England &amp; Wales.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <script type="application/ld+json">
             {
                 "@context": "https://schema.org",
                 "@type": "Organization",
+                "foundingDate": "2007",
+                "foundingLocation": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressCountry": "GB",
+                        "addressRegion": "County Durham",
+                        "addressLocality": "Darlington"
+                    }
+                },
+                "logo": "/images/logo@2x.png",
                 "name": "New Era Wrestling",
-                "url": "https://www.newerawrestling.co.uk"
+                "url": "https://www.newerawrestling.co.uk/"
             }
         </script>
     </body>
